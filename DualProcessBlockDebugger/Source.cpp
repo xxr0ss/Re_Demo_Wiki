@@ -93,13 +93,15 @@ int doParrentProcess()
 
 			if (excpCode != EXCEPTION_ACCESS_VIOLATION) {
 				break;
-			}
-			if (!myDbgTriggerHandled) {
+			} else if (!myDbgTriggerHandled) {
 				ctx.ContextFlags = CONTEXT_FULL;
 				GetThreadContext(pi.hThread, &ctx);
 				ctx.Rip += 7;
 				SetThreadContext(pi.hThread, &ctx);
+				break;
 			}
+
+			printf("[*] unhandled exception: %x\n", excpCode);
 			break;
 		case EXIT_PROCESS_DEBUG_EVENT:
 			printf("Killed");
