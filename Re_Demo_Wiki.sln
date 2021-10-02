@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DualProcessTest", "DualProcessTest\DualProcessTest.vcxproj", "{F1668422-B388-4E54-8282-3DAAD6639DEE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DualProcessBlockDebugger", "DualProcessBlockDebugger\DualProcessBlockDebugger.vcxproj", "{0367BF63-261E-4596-9129-61AA43AD5276}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,12 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F1668422-B388-4E54-8282-3DAAD6639DEE}.Debug|x64.ActiveCfg = Debug|x64
-		{F1668422-B388-4E54-8282-3DAAD6639DEE}.Debug|x64.Build.0 = Debug|x64
-		{F1668422-B388-4E54-8282-3DAAD6639DEE}.Debug|x86.ActiveCfg = Debug|x64
-		{F1668422-B388-4E54-8282-3DAAD6639DEE}.Release|x64.ActiveCfg = Release|x64
-		{F1668422-B388-4E54-8282-3DAAD6639DEE}.Release|x64.Build.0 = Release|x64
-		{F1668422-B388-4E54-8282-3DAAD6639DEE}.Release|x86.ActiveCfg = Release|x64
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Debug|x64.ActiveCfg = Debug|x64
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Debug|x64.Build.0 = Debug|x64
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Debug|x86.ActiveCfg = Debug|Win32
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Debug|x86.Build.0 = Debug|Win32
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Release|x64.ActiveCfg = Release|x64
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Release|x64.Build.0 = Release|x64
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Release|x86.ActiveCfg = Release|Win32
+		{0367BF63-261E-4596-9129-61AA43AD5276}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
