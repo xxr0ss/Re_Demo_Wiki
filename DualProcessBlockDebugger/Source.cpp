@@ -25,7 +25,7 @@ int func() {
 	return (ERROR_ALREADY_EXISTS == error) ? IS_SUB_PROCESS : IS_PARRENT_PROCESS;
 }
 
-//int a = premain();
+
 int main() {
 	pid = GetCurrentProcessId();
 	printf("[%d] Started...\n", pid);
